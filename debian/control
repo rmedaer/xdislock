@@ -1,0 +1,15 @@
+Source: xdislock
+Section: misc
+Priority: extra
+Maintainer: Raphael Medaer <raphael.medaer@straightforward.me>
+Build-Depends: debhelper (>= 7), autotools-dev, libpam0g-dev, libx11-dev, x11proto-core-dev
+Standards-Version: 3.9.3
+Homepage: https://github.com/rmedaer/xdislock
+
+Package: xdislock
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpam0g, libx11-6
+Description: A xtrlock like with PAM authentication.
+ Lock display and replace cursor with small colorized padlock. The padlock
+ color depends if PAM prompt for password (blue) or just wait another
+ event (white). The padlock is red when PAM check authentication.

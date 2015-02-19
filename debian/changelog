@@ -1,0 +1,5 @@
+xdislock (1.0.0) unstable; urgency=low
+
+  * Initial development version with Debian packaging.
+
+ -- Raphael Medaer <raphael.medaer@straightforward.me>  Thu, 19 Feb 2015 22:09:25 +0100
